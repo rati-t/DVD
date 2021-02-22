@@ -10,8 +10,10 @@ var checker = 0;
 
 $(document).ready(function(){
     $("body").keypress(function(event){
+    
        if(event.keyCode == 32 && checker == 0){
-           $("h1").css("color", "black");
+       
+        $("h1").css("color", "black");
            interval = setInterval(start_it,10)
        }
        if(event.keyCode == 13){
